@@ -11,7 +11,7 @@ provider:
   runtime: nodejs12.x
   region: us-west-2
   environment: ${self:custom.settings}
-  cfnRole: arn:aws:iam::196486885060:role/SlsAPILambda
+  cfnRole: arn:aws:iam::196486885060:role/serverless-enterprise_jchayes
   iamRoleStatements:
    - Effect: "Allow"
      Action:
